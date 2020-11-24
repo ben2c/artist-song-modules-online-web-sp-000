@@ -6,7 +6,7 @@ class Artist
 
   @@artists = []
 
-  def self.initialize
+  def initialize
     super
     @songs = []
   end
